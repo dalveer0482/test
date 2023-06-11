@@ -1,0 +1,79 @@
+/* color circle filter box  css  */
+ul.py-2.color_filter li.pb-4 a {
+  padding-left: 26px;
+}
+ul.py-2.color_filter li.pb-4 {
+  position: relative;
+}ul.py-2.color_filter li.pb-4 a:after {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  border-radius: 50%;
+  transition: all 125ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  border: 2px solid transparent;
+  width: 20px;
+  height: 20px;
+}li.pb-4.Green a:after {
+  background: green;
+}
+li.pb-4.Blue a:after{
+  background: Blue;
+}li.pb-4.Yellow a:after{
+  background: yellow;
+}li.pb-4.Pink a:after{
+  background: Pink;
+}li.pb-4.Silver a:after{
+  background: silver;
+}li.pb-4.Sky.Blue a:after{
+  background: skyblue;
+}
+
+/* size box filter box  css  */
+ul.py-2.size_filter {
+  display: inline-block;
+}
+ul.py-2.size_filter li.pb-4 {
+  width: 35px;
+  height: 35px;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 3px 0;
+  text-align: center;
+  padding: 4px;
+}
+
+/* color swatch on product card*/
+.color__swatch ul li {
+   line-height: 1;
+  text-align: center;
+  color: transparent;
+  font-size: 0px;
+  margin-right: 5px;
+}
+li.pb-4.pt-4.bg-pink {
+  background: pink;
+}li.pb-4.pt-4.bg-blue {
+  background: blue;
+}li.pb-4.pt-4.bg-yellow {
+  background: yellow;
+}li.pb-4.pt-4.bg-green {
+  background: green;
+}li.pb-4.pt-4.bg-sky.blue {
+  background: skyblue;
+}li.pb-4.pt-4.bg-silver {
+  background: silver;
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  bottom: -13px !important;
+}
+
+/* Size swatch on product card*/
+.size__swatch ul li {
+  line-height: 1;
+ text-align: center;
+ font-size: 14px;
+ margin-right: 5px;
+ width: 100%;
+    max-width: 64px;
+}
